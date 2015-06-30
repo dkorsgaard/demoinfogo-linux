@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		39478FBC1B433A5400FFDE62 /* cstrike15_usermessages_public.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = cstrike15_usermessages_public.proto; sourceTree = "<group>"; };
+		39478FBD1B433A5400FFDE62 /* demofile.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demofile.cpp; sourceTree = "<group>"; };
+		39478FBE1B433A5400FFDE62 /* demofile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demofile.h; sourceTree = "<group>"; };
+		39478FC01B433A5400FFDE62 /* demofilebitbuf.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demofilebitbuf.cpp; sourceTree = "<group>"; };
+		39478FC11B433A5400FFDE62 /* demofilebitbuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demofilebitbuf.h; sourceTree = "<group>"; };
+		39478FC31B433A5400FFDE62 /* demofiledump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demofiledump.cpp; sourceTree = "<group>"; };
+		39478FC41B433A5400FFDE62 /* demofiledump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demofiledump.h; sourceTree = "<group>"; };
+		39478FC61B433A5400FFDE62 /* demofilepropdecode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demofilepropdecode.cpp; sourceTree = "<group>"; };
+		39478FC71B433A5400FFDE62 /* demofilepropdecode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demofilepropdecode.h; sourceTree = "<group>"; };
+		39478FC91B433A5400FFDE62 /* demoinfogo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demoinfogo.cpp; sourceTree = "<group>"; };
+		39478FCC1B433A5400FFDE62 /* cstrike15_usermessages_public.pb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = cstrike15_usermessages_public.pb.cc; sourceTree = "<group>"; };
+		39478FCD1B433A5400FFDE62 /* cstrike15_usermessages_public.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cstrike15_usermessages_public.pb.h; sourceTree = "<group>"; };
+		39478FCE1B433A5400FFDE62 /* netmessages_public.pb.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = netmessages_public.pb.cc; sourceTree = "<group>"; };
+		39478FCF1B433A5400FFDE62 /* netmessages_public.pb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = netmessages_public.pb.h; sourceTree = "<group>"; };
+		39478FD01B433A5400FFDE62 /* netmessages_public.proto */ = {isa = PBXFileReference; lastKnownFileType = text; path = netmessages_public.proto; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		39478FB01B4338A600FFDE62 = {
+			isa = PBXGroup;
+			children = (
+				39478FBB1B433A5400FFDE62 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		39478FBB1B433A5400FFDE62 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				39478FBC1B433A5400FFDE62 /* cstrike15_usermessages_public.proto */,
+				39478FBD1B433A5400FFDE62 /* demofile.cpp */,
+				39478FBE1B433A5400FFDE62 /* demofile.h */,
+				39478FC01B433A5400FFDE62 /* demofilebitbuf.cpp */,
+				39478FC11B433A5400FFDE62 /* demofilebitbuf.h */,
+				39478FC31B433A5400FFDE62 /* demofiledump.cpp */,
+				39478FC41B433A5400FFDE62 /* demofiledump.h */,
+				39478FC61B433A5400FFDE62 /* demofilepropdecode.cpp */,
+				39478FC71B433A5400FFDE62 /* demofilepropdecode.h */,
+				39478FC91B433A5400FFDE62 /* demoinfogo.cpp */,
+				39478FCB1B433A5400FFDE62 /* generated_proto */,
+				39478FD01B433A5400FFDE62 /* netmessages_public.proto */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		39478FCB1B433A5400FFDE62 /* generated_proto */ = {
+			isa = PBXGroup;
+			children = (
+				39478FCC1B433A5400FFDE62 /* cstrike15_usermessages_public.pb.cc */,
+				39478FCD1B433A5400FFDE62 /* cstrike15_usermessages_public.pb.h */,
+				39478FCE1B433A5400FFDE62 /* netmessages_public.pb.cc */,
+				39478FCF1B433A5400FFDE62 /* netmessages_public.pb.h */,
+			);
+			path = generated_proto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		39478FB71B43398400FFDE62 /* demoinfogo */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 39478FBA1B43398400FFDE62 /* Build configuration list for PBXLegacyTarget "demoinfogo" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = /Users/dannie/Projects/demoinfogo;
+			dependencies = (
+			);
+			name = demoinfogo;
+			passBuildSettingsInEnvironment = 1;
+			productName = demoinfogo;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		39478FB11B4338A600FFDE62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					39478FB71B43398400FFDE62 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 39478FB41B4338A600FFDE62 /* Build configuration list for PBXProject "demoinfogo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39478FB01B4338A600FFDE62;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39478FB71B43398400FFDE62 /* demoinfogo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		39478FB51B4338A600FFDE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		39478FB61B4338A600FFDE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		39478FB81B43398400FFDE62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39478FB91B43398400FFDE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39478FB41B4338A600FFDE62 /* Build configuration list for PBXProject "demoinfogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39478FB51B4338A600FFDE62 /* Debug */,
+				39478FB61B4338A600FFDE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39478FBA1B43398400FFDE62 /* Build configuration list for PBXLegacyTarget "demoinfogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39478FB81B43398400FFDE62 /* Debug */,
+				39478FB91B43398400FFDE62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39478FB11B4338A600FFDE62 /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A5E8699-E926-414A-8519-B979D442C63D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>demoinfogo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D85FC5E2C881F6A41E9896F25E33D02DF0AAC2EE</key>
+		<string>https://github.com/csgo-data/demoinfogo-linux.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>demoinfogo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D85FC5E2C881F6A41E9896F25E33D02DF0AAC2EE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/csgo-data/demoinfogo-linux.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D85FC5E2C881F6A41E9896F25E33D02DF0AAC2EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D85FC5E2C881F6A41E9896F25E33D02DF0AAC2EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>demoinfogo-linux</string>
+		</dict>
+	</array>
+</dict>
+</plist>
